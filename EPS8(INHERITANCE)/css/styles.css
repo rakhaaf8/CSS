@@ -1,0 +1,11 @@
+body{
+  font-family: Arial;
+  padding: 10px;
+  color: blueviolet;
+}
+
+.intro{
+  border: 1px solid #665544;
+  padding: inherit; /* dia akan inherit dari atas nya (padding body) */
+  background-color: black;
+}

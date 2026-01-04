@@ -1,0 +1,40 @@
+*{
+  font-family: Arial;
+}
+
+/* last rules */
+i{
+  color: green;
+}
+
+i{
+  color: red; /* this case will use*/
+}
+
+/* specific rules */
+
+b{
+  color: blueviolet; /* lvl 1 */
+}
+p b{
+  color: chartreuse !important; /* lvl 3 , its like final in java*/
+}
+p b{
+  color: chocolate; /* lvl 2 */
+}
+
+p b{
+  font-size: 150%;
+}
+
+
+
+/* studi kasus */
+
+p {
+    font-size: 100%;
+}
+
+p#pendahuluan{
+    font-size:75%; /* lebih spesific */
+}

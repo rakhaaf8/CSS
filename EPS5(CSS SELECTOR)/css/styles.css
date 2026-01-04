@@ -1,0 +1,50 @@
+/* ini comment (ctrl+/) */
+
+/* 1. universal selector (*) */
+*{
+  font-family: 'arial';
+}
+
+/* type selector (sesuai tag) */
+h1{
+  color: darkred;
+}
+h2{
+  color: darkblue;
+}
+
+/* class selector (must have the same tag) */
+li.sarapan{
+  color: darkgoldenrod;
+}
+
+/* id selector (using #)*/
+#maksi_senin{
+  color: blue;
+}
+
+/* child selector */
+p>b{
+  color: blueviolet;
+}
+
+h1>i>b{
+  color: aqua;
+}
+/* artinya b lebih kecil/didalam/anak dari p */
+
+/* decendant selector */
+/* semua yang ada b nya akan ikut */
+p b{
+  color:crimson;
+}
+
+/* adjacent siblings selector */
+p+h2{
+  color: pink;
+}
+
+/* general sibling selector */
+h2~p{
+  font-family:'Times New Roman';
+}

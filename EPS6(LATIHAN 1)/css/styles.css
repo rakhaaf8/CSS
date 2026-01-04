@@ -1,0 +1,47 @@
+/* universal selector */
+*{
+  font-family:Tahoma;
+}
+
+/* type selector */
+h1{
+  font-size: 25px;
+}
+
+/* class selector */
+.artikel{
+  font-size: 20px;
+}
+
+.credit{
+  font-size: 12px;
+}
+
+.penulis{
+  color: crimson;
+}
+
+.tanggal{
+  color: darkolivegreen;
+}
+
+/* id selector */
+#artikel-1{
+  color: darkgoldenrod;
+}
+
+/* child selector */
+p>span{
+  color: purple;
+}
+
+/* first child selector */
+h3+p{
+  color: grey;
+  font-size: 14px;
+}
+
+/* all child */
+h1~p{
+  text-align: justify;
+}
