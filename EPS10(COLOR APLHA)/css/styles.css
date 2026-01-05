@@ -1,0 +1,24 @@
+div{
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+h1{
+  color: darkblue;
+  /* rgba (a = aplha/opasitas) (0-1) */
+  background-color: rgba(0, 0, 9,0.5);
+}
+
+/* hue - 0 sampai 360 */
+/* saturasi - 0% sampai 100% */
+/* lightness - 0% sampai 100% */
+p.paragraf1{
+    background-color:hsl(150,50%,50%); 
+    padding:10px;
+}
+
+/* alpha - 0 sampai 1 */
+p.paragraf2{
+    background-color: hsla(150, 77%, 19%, 0.5);
+    padding:10px;
+}

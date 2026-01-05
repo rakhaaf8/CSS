@@ -1,0 +1,32 @@
+/* color */
+
+/* 1. foreground color */
+
+
+/* name color */
+
+h1{
+  color: red;
+}
+
+/* hex color */
+
+h2{
+  color: #efefef;
+}
+
+/* rgb color */
+
+h3{
+  color: rgb(211, 211, 80);
+}
+
+p{
+  color: blueviolet;
+}
+
+/* 2. background color */
+
+body{
+  background-color: black;
+}
