@@ -1,0 +1,61 @@
+/* cashcade */
+
+*{
+  font-family: Tahoma;
+}
+
+h1{
+  font-family: Times;
+}
+
+h3{
+  font-family: Arial;
+}
+
+h3>span{
+  font-family: Arial;
+}
+
+
+/* merubah span */
+
+/* child selector */
+h3>span{
+  color: crimson;
+}
+span{
+  color: blue;
+}
+
+/* inheritance */
+
+h3{
+  font-size: 12px;
+  padding: 10px;
+}
+
+h3>span{
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+/* color */
+h2{
+  background-color: black;
+  color: beige;
+  padding: 10px;
+}
+
+h3{
+  background-color: rgba(100,25,0,0.2);
+}
+
+h1{
+  background-color: #ec96c3;
+  text-align: center;
+  padding: 10px;
+}
+
+body{
+  background-color: azure;
+}
